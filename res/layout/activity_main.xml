@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageButton 
+        android:id="@+id/ImageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#77000000"
+        android:src="@drawable/header"
+        android:maxWidth="70dp"
+        android:maxHeight="70dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="3dip"/>
+    <Button 
+        android:id="@+id/SmileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smile"/>
+    <Button 
+        android:id="@+id/ThinkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/think"/>
+    <Button 
+        android:id="@+id/DiscussButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discuss"/>
+    <Button 
+        android:id="@+id/MusicButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music"/>
+    <Button 
+        android:id="@+id/NoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/note"/>
+    <Button 
+        android:id="@+id/FriendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"/>
+
+</LinearLayout>

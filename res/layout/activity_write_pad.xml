@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WritePadActivity" >
+
+    <EditText 
+        android:id="@+id/smileSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="please input subject"
+        android:background="#7700ff00"/>
+    
+    <EditText 
+        android:id="@+id/smileText"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:gravity="top"
+        android:background="#77ffff00"/>
+    <Button 
+        android:id="@+id/ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"/>
+
+</LinearLayout>

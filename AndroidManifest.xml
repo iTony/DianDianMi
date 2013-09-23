@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diandianmi.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.diandianmi.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.DiscussActivity"
+            android:label="@string/title_activity_discuss" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.FriendActivity"
+            android:label="@string/title_activity_friend" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.MusicActivity"
+            android:label="@string/title_activity_music" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.NoteActivity"
+            android:label="@string/title_activity_note" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.SmileActivity"
+            android:label="@string/title_activity_smile" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.ThinkActivity"
+            android:label="@string/title_activity_think" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.WritePadActivity"
+            android:label="@string/title_activity_write_pad" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.UploadIconActivity"
+            android:label="@string/title_activity_upload_icon" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.CutImageActivity"
+            android:label="@string/title_activity_cut_image" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.SelectFileActivity"
+            android:label="@string/title_activity_select_file" >
+        </activity>
+        <activity
+            android:name="com.diandianmi.activity.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+    </application>
+
+</manifest>
